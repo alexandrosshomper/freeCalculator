@@ -35,9 +35,6 @@ function App() {
       setCalc(calc.slice(0, -1) + value);
       return;
     }
-    //When value is - and last char is -
-    if (value === "-" && ops.includes(calc.slice(-1))) {
-    }
     if (value === ".") {
       setDecimal(true);
       if (calc === "") {
